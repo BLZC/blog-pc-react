@@ -1,0 +1,49 @@
+.main {
+    .header {
+        padding: 0 calc(50% - 600px);
+        height: 65px;
+        line-height: 65px;
+        background: #fff;
+        .ant-menu-horizontal {
+            border-bottom: none;
+            line-height: 65px;
+        }
+        .logo {
+            cursor: pointer;
+            .logo-text {
+                color: #007fff;
+                font-size: 24px;
+            }
+        }
+        .ant-input {
+            background: #fafafa;
+        }
+        .icon {
+            text-align: center;
+            .icon-bell {
+                cursor: pointer;
+                font-size:24px;
+                color: #666;
+            }
+        }
+        .avatar-col {
+            text-align: center;
+            .avatar {
+                cursor: pointer;
+            }
+            .header-right {
+                color: #007fff;
+                font-size: 18px;
+            }
+            .header-right-item {
+                display: inline-block;
+                padding: 0 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .index {
+        width: 1200px;
+        margin: 40px auto 0;
+    }
+}

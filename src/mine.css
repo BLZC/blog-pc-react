@@ -1,0 +1,16 @@
+.blog-hidden-big {
+    display: none !important;
+}
+.blog-hidden-small {
+    display: inline-block !important;
+}
+
+
+@media (max-width: 768px) {
+    .blog-hidden-big {
+        display: inline-block !important;
+    }
+    .blog-hidden-small {
+        display: none !important;
+    }
+}

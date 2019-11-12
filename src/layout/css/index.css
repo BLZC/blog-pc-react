@@ -1,0 +1,47 @@
+.main .header {
+  padding: 0 calc(50% - 600px);
+  height: 65px;
+  line-height: 65px;
+  background: #fff;
+}
+.main .header .ant-menu-horizontal {
+  border-bottom: none;
+  line-height: 65px;
+}
+.main .header .logo {
+  cursor: pointer;
+}
+.main .header .logo .logo-text {
+  color: #007fff;
+  font-size: 24px;
+}
+.main .header .ant-input {
+  background: #fafafa;
+}
+.main .header .icon {
+  text-align: center;
+}
+.main .header .icon .icon-bell {
+  cursor: pointer;
+  font-size: 24px;
+  color: #666;
+}
+.main .header .avatar-col {
+  text-align: center;
+}
+.main .header .avatar-col .avatar {
+  cursor: pointer;
+}
+.main .header .avatar-col .header-right {
+  color: #007fff;
+  font-size: 18px;
+}
+.main .header .avatar-col .header-right-item {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.main .index {
+  width: 1200px;
+  margin: 40px auto 0;
+}

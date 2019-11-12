@@ -1,0 +1,39 @@
+.home .home-left {
+  background: #fff;
+}
+.home .home-left .card .ant-card-body {
+  padding: 10px 20px;
+}
+.home .home-left .card .card-header {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #999;
+}
+.home .home-left .card .card-title {
+  height: 60px;
+  font-size: 18px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.home .home-left .card .card-footer {
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+}
+.home .home-left .card .card-footer .minitem {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+}
+.home .home-left .card .card-footer .liked {
+  color: red;
+}
+.home .home-left .card .card-img {
+  width: 80px;
+  height: 80px;
+}
+.home .home-right {
+  background: #fff;
+  height: 240px;
+}

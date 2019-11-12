@@ -1,0 +1,22 @@
+.detail {
+    .detail-left {
+        background: #fff;
+        padding: 10px 20px;
+        text-align: left;
+        .detail-header {
+            height: 40px;
+            // line-height: 40px;
+        }
+        .detail-title {
+            margin-top: 20px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 24px;
+            font-weight: 550;
+        }
+    }
+    .detail-right {
+        background: #fff;
+        height: 250px;
+    }
+}

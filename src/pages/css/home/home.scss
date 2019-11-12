@@ -1,0 +1,43 @@
+.home {
+    .home-left {
+        background: #fff;
+        .card {
+            .ant-card-body {
+                padding: 10px 20px;
+            }
+            .card-header {
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
+                color: #999;
+            }
+            .card-title {
+                height: 60px;
+                font-size: 18px;
+                font-weight: 550;
+                cursor: pointer;
+            }
+            .card-footer {
+                height: 40px;
+                line-height: 40px;
+                color: #999;
+                .minitem {
+                    display: inline-block;
+                    margin: 0 10px;
+                    font-size: 18px;
+                }
+                .liked {
+                    color: red;
+                }
+            }
+            .card-img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+    .home-right {
+        background: #fff;
+        height: 240px;
+    }
+}
